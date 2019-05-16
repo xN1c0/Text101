@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf6e8e437b485d459387de9c1c38cc0, type: 3}
+  m_Name: A1. In the saloon
+  m_EditorClassIdentifier: 
+  storyText: "You were travelling to find new challenges when you arrived in \"Nowhere\"
+    town.\r\nYou decided to enter in the only saloon present to drink a beer while
+    suddenly an old man approached you \r\nHe told you that there is a cave not so
+    distant from the town with a magical treasure at its end, but the place is full
+    of traps and pitfalls that could take you away from right the path until you lose
+    yourself in the darkness.\r\nA lot of adventurers disappeared or died tryng to
+    find the \"Magical Stick\"\r\n\r\nAre you brave enough to reach the \"Magical
+    Stick\"?\n\n1. Yes!\n2. Hell no!"
+  nextState:
+  - {fileID: 11400000, guid: 8cd6cb0021873ec4280c0f56aa7599dc, type: 2}
+  - {fileID: 11400000, guid: 2317ac415ffe2dd4ba4e1345391d0dc8, type: 2}

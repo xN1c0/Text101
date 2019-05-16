@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf6e8e437b485d459387de9c1c38cc0, type: 3}
+  m_Name: B0. In front of the dungeon
+  m_EditorClassIdentifier: 
+  storyText: "You are in front of the cave.\r\n\r\nThere is a small sign wich says
+    \"Come in there is beer!!!\"\r\n...\r\n\"Just joking at the end of this cave lies
+    the stick every being is looking for\"\r\n... \r\n\"Once entered there is no coming
+    back\"\r\n\r\n1. Enter the cave\r\n2. Go back home"
+  nextState:
+  - {fileID: 11400000, guid: 1285c4e6f939d944d9b4075c737b77b3, type: 2}
+  - {fileID: 11400000, guid: 2317ac415ffe2dd4ba4e1345391d0dc8, type: 2}

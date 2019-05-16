@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf6e8e437b485d459387de9c1c38cc0, type: 3}
+  m_Name: A0. Intro
+  m_EditorClassIdentifier: 
+  storyText: 'Welcome to "Magical Stick"
+
+
+    During the story you have to chose one of the option presented:
+
+
+    Option 1 -> Keyboard AlphaNumber 1
+
+    Option 2 -> Keyboard AlphaNumber 2
+
+    Option 3 -> Keyboard AlphaNumber 3
+
+    Quit Anytime -> Keyboard q
+
+
+    Be careful, you are deciding your own fate!!!
+
+
+    PRESS 1 TO START'
+  nextState:
+  - {fileID: 11400000, guid: 6cb02a037e7a6764683aca55bcab5616, type: 2}
